@@ -187,6 +187,7 @@ def main(INPUT_FILE: str, CHARGE: str, MULTIPLICITY: str) -> None:
     plt.savefig(PNG_FILE, format="png")
 
 try:
+    
     ARGUMENT_ONE = sys.argv[1]
     ARGUMENT_TWO = sys.argv[2]
     ARGUMENT_THREE = sys.argv[3]
